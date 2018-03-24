@@ -1,0 +1,128 @@
+/*!
+Theme Name: autoglass
+Theme URI: http://shabbir.me/
+Author: Mostafiz Shabbir
+Author URI: http://shabbir.me/
+Description: This is WordPress custom theme. For Autoglass. It is fully responsive and dynamic website. 
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: autoglass
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+
+
+
+.right-logo {
+	z-index: 99999;
+	top: 0px;
+	right: 0px;
+	position: fixed;
+	transform-origin: 100% 0% 0px;
+	transform: scale(0.922);
+	cursor: pointer;
+}
+.right-logo img:nth-child(2){
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.right-logo .textl-right{
+	position: absolute; 
+	font-family: sans-serif; 
+	color: rgb(0, 0, 0); 
+	line-height: 1; 
+	font-weight: bold; 
+	width: 44px; 
+	height: 18px; 
+	font-size: 17px; 
+	top: 2px; 
+	left: 29px;
+}
+#index-header > DIV:nth-child(1) > A:nth-child(1) > SPAN:nth-child(1) {
+	font-weight: 300 !important;
+	font-size: 13px !important;
+}
+.footer-reparation{
+	width: 32.5%;
+}
+.footer-reparations {
+	width: 75.5%;
+}
+.footer-reparation ul {
+	width: inherit;
+	box-sizing: border-box;
+	float: left;
+}
+.footer-reparation ul {
+	box-sizing: border-box;
+	float: left;
+}
+.iframe-partenaires.container ul li {
+	margin: 0 18px;
+}
+/* .block_devis {
+	height: auto !important;
+} */
+@media only screen and (max-width:719px){
+	nav#index-header .nav-wrapper .menu-lateral{
+		top:74px
+	}
+	.side-nav{top:74px}
+	
+	
+}
+
+@media (min-width:719px) and (max-width:1023px){
+	.dm-tablet{
+		padding-top:38px
+	}
+	nav#index-header .nav-wrapper .menu-lateral{
+		top:38px
+	}
+	.side-nav{
+		top:38px
+	}
+	
+}
+#index-nav {
+	height: 40px;
+	background-color: rgba(0,0,0);
+	margin: 0;
+}
+
+@media only screen and (max-width:719px){
+	#index-banner .container .row .col>.input-field-submit a,.blocDevis .container .row .col>.input-field-submit a{width: calc(80% + 36px) !important}
+	}
+@media only screen and (min-width:600px) and (max-width:695px){
+	.block_devis_modals_ev{width:102%;height:85%;margin-top:85px;padding-top:0px}.btn-valider_container{position:fixed;text-align:center;z-index:1005;top:88%;background:rgba(0,0,0,.5);left: calc(1% + 4px);right:2%}
+}
+@media only screen and (min-width:695px) and (max-width:1024px){
+	.block_devis_modals_ev{width:102%;height:90%;margin-top:50px;padding-top:0px}.btn-valider_container{position:fixed;text-align:center;z-index:1005;top:88%;background:rgba(0,0,0,.5);left:2%;right:19px}
+}
+@media only screen and (min-width:1024px){
+	.block_devis_garage .bx-wrapper li>div>img{min-height:392px!important}.block_devis_modals_ev{width:102%;height:90%;margin-top:55px;padding-top:0px}.btn-valider_container{position:fixed;text-align:center;z-index:1005;top:calc(89% - 2px);left:calc(1% - 4px);right:0;width:1024px;background:rgba(0,0,0,.5);margin-bottom:0}.block_devis_garage .btn-valider_container{top:calc(88% + 5px)}
+}
